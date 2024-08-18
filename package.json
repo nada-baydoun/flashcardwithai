@@ -9,12 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/clerk-js": "^5.14.1",
+    "@clerk/nextjs": "^5.3.1",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@google/generative-ai": "^0.17.0",
+    "@mui/material": "^5.16.7",
+    "canvas": "^2.11.2",
+    "firebase": "^10.13.0",
+    "formidable": "^3.5.1",
+    "next": "14.2.5",
+    "next-transpile-modules": "^10.0.1",
+    "openai": "^4.56.0",
+    "pdf-parse": "^1.1.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "pdfjs-dist": "^2.16.105"
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "eslint-config-next": "14.2.5",
+    "@types/canvas": "^2.9.0"
   }
+
 }
+
